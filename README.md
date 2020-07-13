@@ -1,2 +1,2 @@
-# kumarov-web.github.io
+# Aslan Kumarov
 Мой первый опубликованный сайт
