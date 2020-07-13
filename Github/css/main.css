@@ -1,0 +1,341 @@
+/* - - - - - Спецификация  - - - - - */
+
+body {
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+	color: #000
+	padding: 0;
+	margin: 0;
+}
+
+.container {
+	width: 1170px;
+	margin: 0 auto;
+}
+
+div, p, form, input, a, span, button {
+	box-sizing: border-box;
+}
+
+p {
+	margin: 0;
+	line-height: 1.4em;
+	font-size: 14px;
+	margin-bottom: 1em;
+}
+
+ul, li {
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	padding: 0;
+	margin: 0;
+	font-weight: 900;
+	text-transform: uppercase;
+	line-height: 1.15em;
+}
+
+h2 {
+	font-size: 58px;
+}
+
+h3 {
+	font-size: 37px;
+}
+
+a, a:hover, a:active{
+	text-decoration: none;
+	transition: all 0.3s ease;
+	
+}
+
+.btn{
+	display: block;	
+	color: #fff;
+	font-weight: 900;
+	font-size: 20px;
+	width: 311px;
+	padding: 25px 0;
+	text-align: center;
+	background: #000;
+	text-transform: uppercase;
+	box-shadow: 0 1px 54px rgba(0, 0, 0, 0.2);
+}
+
+.btn: hover {
+	box-shadow: 0 1px 10px rgba(0, 0, 0, 0.8);
+}
+
+.btn: active {
+	box-shadow: 0 0 3px rgba(0, 0, 0, 0.8);
+}
+
+.d-flex {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+}
+
+.justify-content-between{
+	justify-content: space-between;
+}
+
+.align-items-center {
+	align-items: center;
+}
+
+
+/* - - - - - Первый экран  - - - - - */
+
+.header { 
+	background: #fee11f url(../img/first_bg.jpg) no-repeat center top;
+	padding-top: 75px;
+	padding-bottom: 96px;
+ }
+
+ .logo {
+ 	font-weight: 900;
+ 	text-transform: uppercase;
+ 	font-size: 24px;
+ }
+
+.offer {
+
+}
+
+.offer__workshop {
+	font-size: 20px;
+	font-weight: 900;
+	text-transform: uppercase;
+	margin-bottom: 32px;
+}
+
+.offer__workshop i {
+	font-size: 16px;
+}
+
+.offer__title {
+	font-size: 61px;
+	width: 726px;
+	margin-bottom: 20px;
+}
+
+.offer__list {
+	font-size: 19px;
+	margin-bottom: 47px;
+}
+
+.offer__item {
+	margin-bottom: 8px;
+}
+
+/* - - - - - Второй экран  - - - - - */
+.question {
+	width: 705px;
+	padding: 83px 135px 80px 0;
+}
+
+.question__title {
+
+}
+
+.question__text {
+	font-size: 22px;
+	margin-top: 25px;
+	margin-bottom: 0;
+}
+
+.author {
+	background: #ededed;
+	color: #454545;
+	width: 462px;
+	padding: 65px 0 65px 38px;
+}
+
+.author__name {
+	font-weight: 700;
+	font-size: 18px;
+	text-transform: uppercase;
+	margin-bottom: 10px;
+}
+
+.author__details {
+	
+}
+
+.author__line {
+	margin-bottom: 0;
+	font-size: 17px;
+}
+
+.author__digits {
+	margin-top: 30px;
+	margin-bottom: 27px;
+}
+
+.author__icon {
+	font-size: 39px;
+	font-weight: 700;
+	margin-right: 13px;
+}
+.author__text{
+	font-size: 12px;
+	text-transform: uppercase;
+	font-weight: 700;
+	margin-top: -4px;
+
+}
+
+.author__text_long {
+	width: 83px;
+}
+.author__text_short {
+	width: 48px;
+}
+.author__element {
+
+}
+
+.link {
+	font-size: 17px;
+	color: #000;
+	border-bottom: 1px dotted #000;
+
+}
+.author__link {
+
+}
+
+
+
+/* - - - - - Третий экран  - - - - - */
+
+.money {
+	background: #000;
+}
+
+.question_white {
+	color: #fff;
+}
+
+.amount {
+	justify-content: center;
+	align-items: center;
+	background: #ffde00;
+	width: 462px;
+	font-weight: 900;
+	text-align: center;
+	
+}
+
+
+.amount__money {
+	font-size: 72px;
+	width: 230px;
+
+}
+
+.amount__money span {
+	font-size: 34px;
+	display: block;
+	margin-top: -7px;
+	text-transform: uppercase;
+	
+}
+
+/* - - - - - Четвертый экран  - - - - - */
+
+.thanks {
+	padding: 86px 0;
+}
+.achieve {
+	width: 636px;
+}
+
+.achieve__title {
+	width: 440px;
+}
+
+.achieve__list {
+	margin-top: 40px;
+}
+
+.achieve__item {
+	margin-bottom: 44px;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+
+}
+
+
+.achieve__item:before {
+	content: '';
+	display: block;
+	width: 14px;
+	height: 14px;
+	background: #000;
+	border: 6px solid #ffde00;
+	margin-right: 26px;
+}
+
+/* - - - - - Пятый экран  - - - - - */
+
+
+.time {
+	background: #000;
+	color: #fff;
+}
+
+.way {
+	
+}
+
+.way__elem {
+	padding: 17px 0;
+	display: block;
+	
+}
+
+.way__elem_yellow {
+	background: #ffde00;
+	color: #000;
+	padding: 17px 23px;
+	margin-left: 18px;
+}
+
+.way__start {
+	font-size: 32px;
+	margin-left: 32px;
+	text-transform: uppercase;
+	
+}
+
+
+.way__date {
+	margin-right: 17px;
+}
+
+.way__date:after {
+	content: '/';
+	margin-left: 17px;
+}
+
+.way__date:last-child:after {
+	display: none;
+}	
+
+
+
+
+
+
+
+
